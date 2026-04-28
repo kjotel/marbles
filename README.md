@@ -2,7 +2,7 @@
 
 ## Overview
 
-This portfolio contains a series of programming tasks focused on code analysis, debugging, and improvement. Each task demonstrates problem-solving skills, code quality awareness, and the ability to write clean, maintainable JavaScript.
+This portfolio contains a series of programming tasks focused on identifying bugs, explaining their effects, and improving code quality. The work demonstrates problem-solving skills, attention to detail, and the ability to write clean, maintainable JavaScript.
 
 ---
 
@@ -10,63 +10,80 @@ This portfolio contains a series of programming tasks focused on code analysis, 
 
 The project is organized into separate folders for each task:
 
-- **task1/**
-  - `task1A.md` → Code review and bug fixes
-  - `task1A.mjs` → Original and improved implementation
-  - `task1B.md` → Analysis of logic and design issues
-  - `task1B.mjs` → Improved implementation and examples
+* **task1**
 
-This structure separates **theoretical explanations** from **practical code**, making the work easy to read and evaluate.
+  * `task1A.md` → Code review and bug fixes
+  * `task1A.mjs` → Original and improved implementation
+  * `task1B.md` → Analysis of logic and design issues
+  * `task1B.mjs` → Improved implementation and examples
+  * `task1C.md` → Analysis of data handling and logical errors
+  * `task1C.mjs` → Improved implementation and output handling
 
-The project is organized into separate folders for each task:
-
-- **task1/**
-  - `task1A.md` → Explanation of identified issues, reasoning, and improvements
-  - `task1A.mjs` → Original code, fixed version, and improved implementation
-
-This structure separates **theoretical explanations** from **practical code**, making the work easy to read and evaluate.
+Each task separates **explanations** (`.md`) from **code implementations** (`.mjs`) to ensure clarity and readability.
 
 ---
 
-## Task 1a – Summary
+## Task 1 – Summary
 
-In Task 1a, an existing JavaScript function was reviewed and improved.
+Task 1 focuses on reviewing existing JavaScript code, identifying issues, and improving both functionality and structure.
 
-### Key work:
+### Task 1a:
 
-- Identified logical and runtime errors
-- Explained the effect of each issue
-- Corrected the implementation
-- Added input validation
-- Provided a more modern solution using `reduce()`
+* Identified syntax and logical errors in array handling
+* Fixed loop conditions and indexing issues
+* Added input validation
+* Implemented a modern solution using `reduce()`
+
+### Task 1b:
+
+* Identified issues with global state and data duplication
+* Fixed invalid expressions and improved logic clarity
+* Prevented duplicate entries in data structures
+* Improved readability and maintainability
+
+### Task 1c:
+
+* Identified problems with constant reassignment and shared object references
+* Fixed logical errors caused by incorrect operators
+* Avoided unintended mutation of input data
+* Improved accuracy of returned results and structure
+
+---
+
+## Key Concepts Demonstrated
+
+* Debugging and error analysis
+* Understanding of JavaScript fundamentals
+* Clean code principles
+* Input validation
+* Avoiding side effects and unintended mutations
+
 
 ---
 
 ## How to Run the Code
 
-If you want to test the functions:
+To test the implementations:
 
-1. Open the project in VSCodium
-2. Use Node.js to run the file:
-
-   ```bash
-   node task1/task1A.mjs
-   ```
-
+```bash
+node task1/task1A.mjs
+node task1/task1B.mjs
+node task1/task1C.mjs
+```
 
 ---
 
 ## Reflection
 
-This portfolio demonstrates:
+This portfolio demonstrates the ability to:
 
-- Attention to detail in debugging
-- Understanding of JavaScript fundamentals
-- Ability to improve code structure and reliability
-- Use of modern JavaScript features
+* Analyze and correct faulty code
+* Explain technical issues clearly
+* Improve code structure and reliability
+* Apply best practices in JavaScript development
 
 ---
 
 ## Author
 
-Kjetil Andre Rilvaag Hansen
+Kjetil Andre' Rilvaag Hansen
