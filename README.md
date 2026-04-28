@@ -22,6 +22,10 @@ The project is organized into separate folders for each task:
   - `task2.md` → Explanation of object references and behavior
   - `task2.mjs` → Demonstration of reference vs copy
 
+- **task3/**
+  - `task3.md` → Explanation of scope and variable shadowing
+  - `task3.mjs` → Improved implementation and examples
+
 Each task separates **explanations** (`.md`) from **code implementations** (`.mjs`) to ensure clarity and readability.
 
 ---
@@ -37,7 +41,7 @@ Task 1 focuses on reviewing existing JavaScript code, identifying issues, and im
 - Added input validation
 - Implemented a modern solution using `reduce()`
 
-### Task 1b: 
+### Task 1b:
 
 - Identified issues with global state and data duplication
 - Fixed invalid expressions and improved logic clarity
@@ -66,13 +70,32 @@ Task 2 focuses on understanding how objects are handled in JavaScript, particula
 
 This task highlights the importance of avoiding unintended side effects when working with objects.
 
+---
+
+## Task 3 – Summary
+
+Task 3 focuses on understanding variable scope and shadowing in JavaScript.
+
+### Key work:
+
+- Identified how function parameters can shadow global variables
+- Explained why local changes do not affect outer scope variables
+- Demonstrated how scope affects program behavior
+- Improved code by using clearer variable naming and avoiding shadowing
+
+This task highlights the importance of understanding scope to prevent confusion and logical errors in programs.
+
+---
+
 ## Key Concepts Demonstrated
 
-- Debugging and error analysis
-- Understanding of JavaScript fundamentals
-- Clean code principles
-- Input validation
-- Avoiding side effects and unintended mutations
+- Debugging and error analysis  
+- Understanding of JavaScript fundamentals  
+- Object references vs copies  
+- Variable scope and shadowing  
+- Clean code principles  
+- Input validation  
+- Avoiding side effects and unintended mutations  
 
 ---
 
@@ -85,6 +108,7 @@ node task1/task1A.mjs
 node task1/task1B.mjs
 node task1/task1C.mjs
 node task2/task2.mjs
+node task3/task3.mjs
 ```
 
 ---
