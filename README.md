@@ -1,4 +1,4 @@
-# Programming Portfolio
+# Programming Portfolio - All The Marbles
 
 ## Overview
 
@@ -10,14 +10,17 @@ This portfolio contains a series of programming tasks focused on identifying bug
 
 The project is organized into separate folders for each task:
 
-* **task1**
+- **task1/**
+  - `task1A.md` → Code review and bug fixes
+  - `task1A.mjs` → Original and improved implementation
+  - `task1B.md` → Analysis of logic and design issues
+  - `task1B.mjs` → Improved implementation and examples
+  - `task1C.md` → Analysis of data handling and logical errors
+  - `task1C.mjs` → Improved implementation and output handling
 
-  * `task1A.md` → Code review and bug fixes
-  * `task1A.mjs` → Original and improved implementation
-  * `task1B.md` → Analysis of logic and design issues
-  * `task1B.mjs` → Improved implementation and examples
-  * `task1C.md` → Analysis of data handling and logical errors
-  * `task1C.mjs` → Improved implementation and output handling
+- **task2/**
+  - `task2.md` → Explanation of object references and behavior
+  - `task2.mjs` → Demonstration of reference vs copy
 
 Each task separates **explanations** (`.md`) from **code implementations** (`.mjs`) to ensure clarity and readability.
 
@@ -29,35 +32,47 @@ Task 1 focuses on reviewing existing JavaScript code, identifying issues, and im
 
 ### Task 1a:
 
-* Identified syntax and logical errors in array handling
-* Fixed loop conditions and indexing issues
-* Added input validation
-* Implemented a modern solution using `reduce()`
+- Identified syntax and logical errors in array handling
+- Fixed loop conditions and indexing issues
+- Added input validation
+- Implemented a modern solution using `reduce()`
 
-### Task 1b:
+### Task 1b: 
 
-* Identified issues with global state and data duplication
-* Fixed invalid expressions and improved logic clarity
-* Prevented duplicate entries in data structures
-* Improved readability and maintainability
+- Identified issues with global state and data duplication
+- Fixed invalid expressions and improved logic clarity
+- Prevented duplicate entries in data structures
+- Improved readability and maintainability
 
 ### Task 1c:
 
-* Identified problems with constant reassignment and shared object references
-* Fixed logical errors caused by incorrect operators
-* Avoided unintended mutation of input data
-* Improved accuracy of returned results and structure
+- Identified problems with constant reassignment and shared object references
+- Fixed logical errors caused by incorrect operators
+- Avoided unintended mutation of input data
+- Improved accuracy of returned results and structure
 
 ---
 
+## Task 2 – Summary
+
+Task 2 focuses on understanding how objects are handled in JavaScript, particularly the difference between references and copies.
+
+### Key work:
+
+- Identified that variables can reference the same object in memory
+- Explained why modifying one variable affects another
+- Demonstrated the concept of shared references
+- Implemented a solution using the spread operator to create a copy
+
+This task highlights the importance of avoiding unintended side effects when working with objects.
+
 ## Key Concepts Demonstrated
 
-* Debugging and error analysis
-* Understanding of JavaScript fundamentals
-* Clean code principles
-* Input validation
-* Avoiding side effects and unintended mutations
-
+- Debugging and error analysis
+- Understanding of JavaScript fundamentals
+- Clean code principles
+- Input validation
+- Avoiding side effects and unintended mutations
 
 ---
 
@@ -69,6 +84,7 @@ To test the implementations:
 node task1/task1A.mjs
 node task1/task1B.mjs
 node task1/task1C.mjs
+node task2/task2.mjs
 ```
 
 ---
@@ -77,10 +93,10 @@ node task1/task1C.mjs
 
 This portfolio demonstrates the ability to:
 
-* Analyze and correct faulty code
-* Explain technical issues clearly
-* Improve code structure and reliability
-* Apply best practices in JavaScript development
+- Analyze and correct faulty code
+- Explain technical issues clearly
+- Improve code structure and reliability
+- Apply best practices in JavaScript development
 
 ---
 
