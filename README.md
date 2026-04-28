@@ -11,6 +11,16 @@ This portfolio contains a series of programming tasks focused on code analysis, 
 The project is organized into separate folders for each task:
 
 - **task1/**
+  - `task1A.md` → Code review and bug fixes
+  - `task1A.mjs` → Original and improved implementation
+  - `task1B.md` → Analysis of logic and design issues
+  - `task1B.mjs` → Improved implementation and examples
+
+This structure separates **theoretical explanations** from **practical code**, making the work easy to read and evaluate.
+
+The project is organized into separate folders for each task:
+
+- **task1/**
   - `task1A.md` → Explanation of identified issues, reasoning, and improvements
   - `task1A.mjs` → Original code, fixed version, and improved implementation
 
@@ -43,7 +53,6 @@ If you want to test the functions:
    node task1/task1A.mjs
    ```
 
-(Optional: You can import and test the exported functions in another file.)
 
 ---
 
