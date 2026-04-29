@@ -26,6 +26,10 @@ The project is organized into separate folders for each task:
   - `task3.md` → Explanation of scope and variable shadowing
   - `task3.mjs` → Improved implementation and examples
 
+- **task4/**
+  - `task4.md` → Refactoring analysis and explanation
+  - `task4.mjs` → Refactored traffic light implementation
+
 Each task separates **explanations** (`.md`) from **code implementations** (`.mjs`) to ensure clarity and readability.
 
 ---
@@ -87,15 +91,32 @@ This task highlights the importance of understanding scope to prevent confusion 
 
 ---
 
+## Task 4 – Summary
+
+Task 4 focuses on refactoring poorly structured code to improve readability, maintainability, and overall quality.
+
+### Key work:
+
+- Replaced unclear variable and function names with meaningful ones
+- Removed deeply nested conditional logic
+- Eliminated magic values by introducing constants
+- Reduced code duplication through a structured state-based approach
+- Improved overall program structure and readability
+
+This task demonstrates the ability to transform messy code into clean, maintainable, and scalable solutions.
+
+---
+
 ## Key Concepts Demonstrated
 
-- Debugging and error analysis  
-- Understanding of JavaScript fundamentals  
-- Object references vs copies  
-- Variable scope and shadowing  
-- Clean code principles  
-- Input validation  
-- Avoiding side effects and unintended mutations  
+- Debugging and error analysis
+- Understanding of JavaScript fundamentals
+- Object references vs copies
+- Variable scope and shadowing
+- Refactoring and code quality improvement
+- Clean code principles
+- Input validation
+- Avoiding side effects and unintended mutations
 
 ---
 
@@ -109,6 +130,7 @@ node task1/task1B.mjs
 node task1/task1C.mjs
 node task2/task2.mjs
 node task3/task3.mjs
+node task4/task4.mjs
 ```
 
 ---
